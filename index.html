@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fish Weight Prediction Form</h2>
+
+<form action="http://localhost:8080" method="get">
+  <label for="Length1">Length 1:</label><br>
+  <input type="text" id="Length1" name="Length1" value=""><br>
+  <label for="Length2">Length 2:</label><br>
+  <input type="text" id="Length2" name="Length2" value=""><br>
+  <label for="Length3">Length 3:</label><br>
+  <input type="text" id="Length3" name="Length3" value=""><br>
+  <label for="Height">Height:</label><br>
+  <input type="text" id="Height" name="Height" value=""><br>
+  <label for="Width">Width:</label><br>
+  <input type="text" id="Width" name="Width" value=""><br>
+  <label for="Species_Bream">Bream</label>
+  <input type="radio" id="Species_Bream" name="species" value="Species_Bream"><br>
+  <label for="Species_Parkki">Parkki</label>
+  <input type="radio" id="Species_Parkki" name="species" value="Species_Parkki"><br>
+  <label for="Species_Perch">Perch</label>
+  <input type="radio" id="Species_Perch" name="species" value="Species_Perch"><br>
+  <label for="Species_Pike">Pike</label>
+  <input type="radio" id="Species_Pike" name="species" value="Species_Pike"><br>
+  <label for="Species_Roach">Roach</label>
+  <input type="radio" id="Species_Roach" name="species" value="Species_Roach"><br>
+  <label for="Species_Smelt">Smelt</label>
+  <input type="radio" id="Species_Smelt" name="species" value="Species_Smelt"><br>
+  <label for="Species_Whitefish">Whitefish</label>
+  <input type="radio" id="Species_Whitefish" name="species" value="Species_Whitefish"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<script>
+  function submitForm(){document.getElementById("predictionForm").submit();}
+</script>
+
+</body>
+</html>
